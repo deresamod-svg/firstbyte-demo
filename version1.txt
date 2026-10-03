@@ -1,0 +1,16 @@
+Without version control, every software project eventually becomes chaos. Files get overwritten, changes are lost,
+nobody knows who changed what or when, and rolling back a bad change means hoping someone made a manual
+backup.
+Git solves all of this. It tracks every change to every file, stores a complete history, and lets multiple people work on the
+same codebase simultaneously without overwriting each other's work.
+
+Git Setup and Core Commands
+# One-time setup on each machine:
+git config --global user.name 'Your Name'
+git config --global user.email 'you@example.com'
+my name is sirmod 
+
+
+git config --global core.editor 'nano' # Set your preferred editor
+# Initialize a new repository:
+mkdir myproject && cd myproject
